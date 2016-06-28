@@ -131,7 +131,7 @@ window.onload = function()
     <div class="spacer"></div>
     <div class="btn" id="btn_zoomOut" onclick="zoomOut()" title="Zoom out"></div>
     <div class="btn" id="btn_zoomIn" onclick="zoomIn()" title="Zoom in"></div>
-    <a class="toolbar_button" id="savelink" href="javascript:;" onclick="save()">Save/Share/Export</a>
+    <a class="toolbar_button" id="savelink" href="javascript:;" onclick="save()">Export as Midi</a>
     <div id="share" style="display: none"><div class="btn" id="btn_close" onclick="$('#share').hide();"> </div>Link to this sequence: <span id="sharelink"><?php if($id) echo $id; ?></span></div>
     <div class="btn" id="btn_8bit" onclick="window.enableSynth = !window.enableSynth" title="8 Bit Remix (Experimental)"></div>
 </div>
