@@ -6,9 +6,9 @@
 </div>
 <div id="stats">
 <script type="text/javascript">
-var sc_project=8586779; 
-var sc_invisible=1; 
-var sc_security="5041619c"; 
+var sc_project=8586779;
+var sc_invisible=1;
+var sc_security="5041619c";
 var scJsHost = (("https:" == document.location.protocol) ?
 "https://secure." : "http://www.");
 document.write("<sc"+"ript type='text/javascript' src='" +

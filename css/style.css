@@ -1,0 +1,9 @@
+#main {
+    top: 0 !important;
+}
+#frame_wrapper {
+    right: 0 !important;
+}
+#sidebar {
+    display: none;
+}

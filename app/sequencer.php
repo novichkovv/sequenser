@@ -163,13 +163,13 @@ window.onload = function()
     Volume
 </div>
 <div id="links">
-<strong>OnlineSequencer.net</strong> is an online music sequencer. Make tunes in your browser and share them with friends!<br/>
-Shortcuts: Left click to place and move notes, right click to erase, middle click or space to play from a specific time, delete to erase selected notes<br/>
-Made by <a href="http://buildism.net" target="_blank">Jacob Morgan</a> and <a href="http://en.wikipedia.org/wiki/George_P._Burdell" target="_blank">George Burdell</a> &middot; 
-<?php $count = get_var(V_NUM_SEQUENCES);
-echo 'Hosting '.number_format($count).' sequences since 2013';
-?>
-</div>
+<!--<strong>OnlineSequencer.net</strong> is an online music sequencer. Make tunes in your browser and share them with friends!<br/>-->
+<!--Shortcuts: Left click to place and move notes, right click to erase, middle click or space to play from a specific time, delete to erase selected notes<br/>-->
+<!--Made by <a href="http://buildism.net" target="_blank">Jacob Morgan</a> and <a href="http://en.wikipedia.org/wiki/George_P._Burdell" target="_blank">George Burdell</a> &middot;-->
+<?php //$count = get_var(V_NUM_SEQUENCES);
+//echo 'Hosting '.number_format($count).' sequences since 2013';
+//?>
+<!--</div>-->
 <div id="menus">
 <div class="item">
     Grid: <select id="grid_select">

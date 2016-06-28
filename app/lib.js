@@ -58,7 +58,9 @@ function detectScale(notes) {
 	else
 		return -1;
 }
+
 function updateScale(notes) {
+    console.log(notes);
 	var scaleIndex = detectScale(notes);
 	if(scaleIndex > 0) {
 		scale = settings['scales'][scaleIndex];
@@ -123,7 +125,9 @@ Song.prototype.appendData = function(data, startTime, selectNotes) {
 		maxTime = 64;
 	updateLength(maxTime+16);
 }
+
 Song.prototype.addNote = function(note) {
+    console.log(note);
 	var noteIndex = piano.indexOf(note.type);
     if(noteIndex != -1) {
         this.notes.push(note);

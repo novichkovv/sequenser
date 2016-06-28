@@ -37,6 +37,7 @@ if(isset($headhtml))
 	echo $headhtml;
 ?>
 <link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='/css/style.css' rel='stylesheet' type='text/css'>
 <?php
 $css = array('resources/tooltipster',
 'resources/fonts',

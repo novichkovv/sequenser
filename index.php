@@ -1,5 +1,7 @@
 <?php
+ini_set('display_errors', '0');
 ini_set('register_globals', 'on');
+error_reporting(0);
 define("NOT_IN_FORUM", 1);
 include("inc/init.php");
 include('inc/init_forum.php');

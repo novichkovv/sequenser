@@ -1,13 +1,13 @@
 <noscript><div class="sitemessage">This site requires JavaScript to be enabled in your browser settings to work properly.</div></noscript>
 	<div id="container">
-		<div id="header">
-            <div id="login">
+<!--		<div id="header">-->
+<!--            <div id="login">-->
 <?php
-if(defined('MOBILE_BROWSER') && MOBILE_BROWSER) {
-    echo 'Mobile site is incomplete.<br/><a href="?desktop=true">Desktop site (for tablets)</a>';
-}
-?>
-</div>
+//if(defined('MOBILE_BROWSER') && MOBILE_BROWSER) {
+//    echo 'Mobile site is incomplete.<br/><a href="?desktop=true">Desktop site (for tablets)</a>';
+//}
+//?>
+<!--</div>-->
 <!--<div id="nav">-->
 <!--				<ul>-->
 <!--                    <li id="logo"><a href="/">Online Sequencer</a></li>-->
@@ -48,7 +48,7 @@ if(defined('MOBILE_BROWSER') && MOBILE_BROWSER) {
 <!--    <span id="nav_right">--><?php //if(isset($nav_right)) echo $nav_right; ?><!--</span>-->
 <!--</div>-->
 <!--			</div>-->
-		</div>
+<!--		</div>-->
         
 		<div id="main">
 		<div id="page_bg"></div>
