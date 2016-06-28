@@ -1,0 +1,89 @@
+/* Hide banner */
+#login img {
+    display:none;
+}
+
+/* Hide sidebar on sequencer page */
+#frame_wrapper {
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+#sequencer_main, #keyboard_wrapper_element {
+    bottom: 0;
+}
+#bottom_left {
+    display: none;
+}
+#sequencer_main {
+    left: 50px;
+    top: 35px;
+}
+#keyboard_wrapper_element, #keyboard_element, .key, .key_sharp {
+    width: 50px !important;
+}
+.key_text {
+    width: 45px !important;
+}
+
+/* Resize logo */
+#logo, #logo a{
+    height: 60px !important;
+    line-height: 60px !important;
+    display: block !important;
+    background: none;
+    text-indent: 10px;
+}
+#login {
+    font-size: 12px;
+    width: 40%;
+    line-height: 14px;
+    padding: 5px;
+    text-align: left;   
+}
+
+#bar {
+    left: 0;
+    overflow: auto;
+}
+#bar div {
+    display: none;
+}
+#bar_links {
+    display: none;
+}
+
+/* Hide toolbar buttons */
+#toolbar_element .btn, #toolbar_element .active, #toolbar_element .spacer,
+#savelink, #audio_track_link,
+#nav ul li, #bottom {
+    display: none;
+}
+
+/* Resize toolbar */
+#toolbar_element {
+    height: 35px;
+    line-height: 30px;
+}
+#keyboard_wrapper_element {
+    top: 33px;
+}
+#sequencer input[type="text"] {
+    height: 26px !important;
+    line-height: 30px;
+}
+#title {
+    width: 120px;
+}
+.box_label {
+    height: 30px;
+    margin-top: 2px;
+}
+#play_small {
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-color: #676e7a;
+    border-radius: 4px;
+}
