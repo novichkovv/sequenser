@@ -1,5 +1,4 @@
 <?php
-echo 1;exit;
 require('../../inc/init.php');
 require($root.'/inc/init_forum.php');
 $title = $_REQUEST['title'];
