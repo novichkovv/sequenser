@@ -7,3 +7,6 @@
 #sidebar {
     display: none;
 }
+#audio_track_link {
+    display: none !important;
+}
