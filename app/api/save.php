@@ -19,7 +19,7 @@ function save($title, $basedon, $data, $html = false) {
 	}
 	else {
 		db_query('INSERT INTO sequences(owner, date, title, basedon, data, datalength, hash) VALUES("'.$settings['uid'].'", "'.time().'", "'.db_escape_string($title).'", "'.intval($basedon).'", "'.db_escape_string($data).'", "'.strlen($data).'", "'.$hash.'")');
-		return '<a class="toolbar_button" href="/app/midi.php?id='.db_insert_id().'">Export MIDI file</a>';
+		return '<a href="'.$settings['domain'].'/'.db_insert_id().'" target="_blank">'.$settings['domain'].'/'.db_insert_id().'</a> <a class="toolbar_button" href="/app/midi.php?id='.db_insert_id().'">Export MIDI file</a>';
 	}
 }
 
