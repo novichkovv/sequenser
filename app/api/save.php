@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 0);
 require('../../inc/init.php');
 require($root.'/inc/init_forum.php');
 $title = $_REQUEST['title'];
